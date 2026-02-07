@@ -171,7 +171,7 @@ class BlobPlayer {
   This is the same technique as the original drawBlob() function. 
   */
   draw(colourHex) {
-    fill(color(colourHex));
+    fill("#FFC0CB");
     beginShape();
 
     for (let i = 0; i < this.points; i++) {
